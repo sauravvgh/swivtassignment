@@ -1,0 +1,336 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+    
+}
+
+.Navbar{
+  position: relative;
+  display: flex;  
+  width: 1492px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  padding-top: 12px;
+  background: #1D262A;
+}
+.right h2{
+  display: flex;
+  width: 256px;
+  height: 23px;
+  left: 90px;
+  top: 12px;
+
+  text-align: right;
+  letter-spacing: 0.095em;
+  text-transform: capitalize;
+
+/* Cremi white */
+
+color: #F3F3F3;
+}
+
+.left {
+  display: flex;
+  width: 288px;
+  height: 23px;
+  left: 1041px;
+  top: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+/* identical to box height, or 23px */
+
+text-align: center;
+text-transform: capitalize;
+
+/* Cremi white */
+
+color: #F3F3F3;
+
+}
+.img{
+  width: 101px;
+  height: 101px;
+  left: 72px;
+  top: 2px;
+}
+.img .logoimg{
+  position: relative;
+  width: 55px;
+  height: 80px;
+  left: 25.11px;
+  top: 12.27px;
+}
+
+
+.phoneimg1{
+  left: 8.33%;
+  right: 52.73%;
+  top: 8.33%;
+  bottom: 28.78%;
+  background: #926228;
+
+}
+.phoneimg2{
+  left: 40%;
+  right: 8.46%;
+  top: 58.5%;
+  bottom: 8.33%;
+  background: #926228;
+}
+
+.searchFood{
+  background:white;
+}
+
+
+.first{
+  letter-spacing: 0.095em;
+  color:white;
+  font-weight: 600;
+  font-size: 20px;
+  width: 256px;
+  height: 23px;
+  padding-left: 90px;
+  padding-top: 12px;
+  line-height: 23px;
+  cursor: pointer;
+}
+.second{
+  letter-spacing: 0.095em;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding-top: 12px;
+  cursor: pointer;
+
+}
+
+.third{
+  letter-spacing: 0.095em;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding-left: 90px;
+  padding-top: 12px;
+  margin-left:440px;
+  cursor: pointer;
+}
+
+.fourth{
+  letter-spacing: 0.095em;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding-left: 90px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.fifth{
+  letter-spacing: 0.095em;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding-left: 90px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.sixth{
+  letter-spacing: 0.095em;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding-left: 90px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.Infobar{
+  display:flex;
+  margin-left: 1px;
+  right: 0%;
+  margin-top: 10px;
+  padding-bottom: 50px;
+  padding-top:10px;
+  border-bottom: 1px solid rgba(29, 38, 42, 0.16);
+  justify-content: space-around;
+}
+.Infobar .img{
+  margin-top: 10px;
+  padding-bottom: 50px;
+
+}
+
+.Infobar .phoneimg{
+  display: flex;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34.2px;
+/* identical to box height, or 26px */
+
+
+text-transform: capitalize;
+
+/* Black */
+
+color: #1D262A;
+  
+}
+
+.Infobar .searchFood{
+  background: #F3F3F3;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.11);
+  border-radius: 48px;
+  position: absolute;
+  width:162px;
+  height: 44px;
+}
+
+.Infobar .login{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 113.2%;
+}
+
+.burger{
+  margin-left: 90px;
+  width: 50px;
+  height: 230px;
+}
+
+.Coupontext{
+  width: 202px;
+  height: 40px;
+  margin-left: 50px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 113.2%;
+  color: #1D262A;
+}
+
+.tickets{
+  display:flex;
+  justify-content: space-around;
+  margin-top:20px;
+  height: 100px;
+}
+
+.delicaciestext{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 113.2%;
+}
+
+.menuitems{
+  display:flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-top: 30px;
+  
+  height: 100px;
+}
+
+.alldelicacies{
+  display:flex;
+  height:100px;
+  width:100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+
+}
+
+.DealsMenu{
+  display:flex;
+  margin:90px;
+  justify-content: space-around;
+  
+}
+
+.PopularfoodMenu{
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.pkgdeals {
+  height:160px;
+  width:160px;
+}
+.hotburger {
+  height:160px;
+  width:160px;
+}
+.Spfmenu {
+  height:160px;
+  width:160px;
+}
+.fm1{
+  height: 203px;
+  width: 252px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+
+}
+.fm2{
+  height: 203px;
+  width: 252px;
+  margin-left: 10px;
+  top: 0px;
+  border-radius: 10px;
+
+}
+.fm3{
+  height: 203px;
+  width: 252px;
+  margin-left: 0px;
+  top: 0px;
+  border-radius: 10px;
+
+}
+.fm4{
+  height: 203px;
+  width: 252px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+
+}
+.fm5{
+    height: 203px;
+    width: 252px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+
+}
+
+.twenty{
+  width:150px;
+}
+.thirtyfive{
+  width:150px;
+}
+.ten{
+  width:150px;
+}
+.fifty{
+  width:150px;
+}
+
+

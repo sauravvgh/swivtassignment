@@ -1,10 +1,10 @@
 import React from 'react'
-
+import burger from '../assets/burger.png'
 const CuponCode = () => {
   return (
     <>
         <div className="burger">
-        <img src="assets/burgerwallpaper.png" alt="Burger wallpaper" className="burgers" />
+        <img src={burger} alt="Burger wallpaper" className="burgers" />
         </div>
         <div className="Coupontext">Coupon Code</div>
         <div className="tickets">
